@@ -1,70 +1,155 @@
 <html>
+<style>
+    ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(26, 6, 83);
+    }
+
+    li {
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    li a {
+        color: white;
+        text-decoration: none;
+        padding: 16px;
+        display: block;
+        text-align: center;
+    }
+
+    table {
+        border: 3px black solid;
+        border-collapse: collapse;
+    }
+
+    tr,
+    th,
+    td {
+        border: 1px black solid;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+</style>
+
 <body>
-<table border="1" cellpadding="10">
-<tr>
-    <td></td>
-    <td>monday</td>
-    <td>tuesday</td>
-    <td>wednesday</td>
-    <td>thursday</td>
-    <td>friday</td>
-</tr>
-<tr>
-    <td>
-        1;00 pm
-    </td>
-    <td rowspan="2" bgcolor="yellow" >HTMl</td>
-    <td></td>
-    <td bgcolor="yellow" rowspan="2" >HTML</td>
-    <td bgcolor="orange" rowspan="8" >HTML by apps</td>
-     <td bgcolor="yellow" rowspan="2" >HTML</td>
-</tr>
-<tr>
-    <td>
-        2;00 pm
-    </td>
-    <td bgcolor="gray" rowspan="2">DeptMeeting</td>
-</tr>
-<tr>
-    <td>
-        3;00 pm
-    </td>
-    <td bgcolor="green" rowspan="3">css</td>
-    <td bgcolor="green" rowspan="3">css</td>
-    <td bgcolor="green" rowspan="3">css</td>
-</tr>
-<tr>
-    <td>
-        4;00 pm
-    </td>
-    <td></td>
-    
-</tr>
-<tr>
-    <td>
-        5;00 pm
-    </td>
-    <td bgcolor="gray" rowspan="3"> EC Meeting</td>
-</tr>
-<tr>
-    <td>
-        6;00 pm
-    </td>
-    <td bgcolor="blue" rowspan="3">csc205</td>
-            <td bgcolor="blue" rowspan="3">csc205</td>
-            <td bgcolor="blue" rowspan="3">csc205</td>
-</tr>
-<tr>
-    <td>
-        7;00 pm
-    </td>
-</tr>
-<tr>
-    <td>
-        8;00 pm
-    </td>
-    <td></td>
-</tr>
-</table>
+    <ul>
+
+        <li>
+            <a href="http://www.google.com" target="-blank"> Home</a>
+        </li>
+        <li>
+            <a href="https://www.w3schools.com/tags/att_lang.asp" target="-blank"> HTML</a>
+        </li>
+        <li>
+            <a href="https://www.w3schools.com/css/css_intro.asp" target="-blank"> CSS</a>
+        </li>
+        <li>
+            <a href="https://www.w3schools.com/whatis/whatis_js.asp" target="-blank"> Java Script</a>
+        </li>
+
+    </ul>
+
+
+    <br>
+    <hr>
+    <h2 style="font-style: italic;">Click On The Planet To Know More About It . </h2>
+    <img src="1-82.jpg" usemap="#image-map">
+    <map name="image-map">
+        <area target="_blank" alt="sun" title="sun" href="https://en.wikipedia.org/wiki/Sun"
+            coords="2,241,58,256,93,296,2,298" shape="poly">
+        <area target="_blank" alt="mercury" title="mercury" href="https://en.wikipedia.org/wiki/Mercury_planet"
+            coords="116,253,10" shape="circle">
+        <area target="_blank" alt="venus" title="venus" href="https://en.wikipedia.org/wiki/Venus" coords="156,229,18"
+            shape="circle">
+        <area target="_blank" alt="earth" title="earth" href="https://en.wikipedia.org/wiki/Earth" coords="216,201,23"
+            shape="circle">
+        <area target="_blank" alt="mars" title="mars" href="https://en.wikipedia.org/wiki/Mars" coords="277,171,17"
+            shape="circle">
+        <area target="_blank" alt="jupiter" title="jupiter" href="https://en.wikipedia.org/wiki/Jupiter"
+            coords="335,135,37" shape="circle">
+        <area target="_blank" alt="saturn" title="saturn" href="https://en.wikipedia.org/wiki/Saturn" coords="422,94,35"
+            shape="circle">
+        <area target="_blank" alt="uranos" title="uranos" href="https://en.wikipedia.org/wiki/Uranus" coords="492,57,23"
+            shape="circle">
+        <area target="_blank" alt="nepton" title="nepton" href="https://en.wikipedia.org/wiki/Neptune"
+            coords="551,34,20" shape="circle">
+        <area target="_blank" alt="pluto" title="pluto" href="https://en.wikipedia.org/wiki/Pluto" coords="603,12,10"
+            shape="circle">
+    </map>
+    <br>
+    <hr>
+    <table border="1" cellpadding="10">
+        <tbody>
+            <tr>
+                <td></td>
+                <td>monday</td>
+                <td>tuesday</td>
+                <td>wednesday</td>
+                <td>thursday</td>
+                <td>friday</td>
+            </tr>
+            <tr>
+                <td>
+                    1;00 pm
+                </td>
+                <td rowspan="2" bgcolor="yellow">HTMl</td>
+                <td></td>
+                <td bgcolor="yellow" rowspan="2">HTML</td>
+                <td bgcolor="orange" rowspan="8">HTML by apps</td>
+                <td bgcolor="yellow" rowspan="2">HTML</td>
+            </tr>
+            <tr>
+                <td>
+                    2;00 pm
+                </td>
+                <td bgcolor="gray" rowspan="2">DeptMeeting</td>
+            </tr>
+            <tr>
+                <td>
+                    3;00 pm
+                </td>
+                <td bgcolor="green" rowspan="3">css</td>
+                <td bgcolor="green" rowspan="3">css</td>
+                <td bgcolor="green" rowspan="3">css</td>
+            </tr>
+            <tr>
+                <td>
+                    4;00 pm
+                </td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>
+                    5;00 pm
+                </td>
+                <td bgcolor="gray" rowspan="3"> EC Meeting</td>
+            </tr>
+            <tr>
+                <td>
+                    6;00 pm
+                </td>
+                <td bgcolor="blue" rowspan="3">csc205</td>
+                <td bgcolor="blue" rowspan="3">csc205</td>
+                <td bgcolor="blue" rowspan="3">csc205</td>
+            </tr>
+            <tr>
+                <td>
+                    7;00 pm
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    8;00 pm
+                </td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
 </body>
+
 </html>
